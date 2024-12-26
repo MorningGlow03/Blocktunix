@@ -179,7 +179,7 @@ app.get("/", function (req, res) {
 
 
 if (module === require.main) {
-   var server = app.listen(process.env.PORT || 8080, function () {
+   var server = app.listen(process.env.PORT || 3001, function () {
 //   var server = httpsServer.listen(process.env.PORT || 6029, function () {
         var port = server.address().port;
         console.log("App listening on port %s", port);
